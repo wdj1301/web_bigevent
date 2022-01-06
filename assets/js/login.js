@@ -66,7 +66,7 @@ $(function () {
         //将登录成功的 token 字符串 ，保存到localStorage 中
         localStorage.setItem('token', res.token)
         //跳到后台主页
-        location.href = 'D:/前端开发/大事件/第一天/index.html'
+        location.href = '/大事件/第一天/index.html'
         
       }
     })

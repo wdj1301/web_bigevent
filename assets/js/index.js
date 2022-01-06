@@ -10,7 +10,7 @@ $(function () {
             //1.清空本地存储中的 token
             localStorage.removeItem('token')
             //2.重新跳转到登录页面
-            location.href = 'login.html'
+            location.href = '/大事件/第一天/login.html'
                 
             //关闭 confirm 询问框
             layer.close(index)
@@ -62,7 +62,7 @@ function rederAvatar(user) {
     if (user.user_pic !== null) {
         //3.1渲染图片头像
         $('.layui-nav-img')
-            .atter('src', user.user_pic)
+            .attr('src', user.user_pic)
             .show()
         $('.text-avater').hide()
     } else {
